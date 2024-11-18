@@ -30,6 +30,9 @@ UDP port scanning
     sudo nmap -sU -p 53,123 --max-retries 1 --host-timeout 15m --min-rate 1000
 nmap.org
 
+// my own
+sudo nmap -sU -F nmap.org , -T4 etc also dont worrry not that much complex -p 123, 44 etc as well
+
 ................
 ping of death : ping -s 65500 targetIP
 spoof attack : sudo hping3 --spoof IP -c 10 -S SPOOF_IP_netmask
